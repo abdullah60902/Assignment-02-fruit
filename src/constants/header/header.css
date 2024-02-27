@@ -1,0 +1,82 @@
+
+.display-left-navbar{display: flex;
+    align-items: center;
+    
+}
+.navbar-main{
+display: flex;
+justify-content: space-between;
+
+}.img-text-dp{
+    display: flex;
+}.TROPIKO{
+    font-size: 45px;
+    
+}.orgpic0{
+    width: 75px;
+    height: 75px;
+}
+.para{
+    padding: 0px 20px;
+
+margin-top: -15px;
+}
+#line-img{
+    height: 50px;
+    width: 50px;
+    padding-top: 7px;
+    padding-left: 3px;
+display: none;
+}
+#search{
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
+}
+#button{
+    height: 40px;
+    background-color: orange;
+    border: coral;
+    color: white;
+    padding: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+margin-left: 10px;
+border-radius: 6px;
+    
+}
+#color{
+    color: rgb(109, 173, 175);
+    height: 5px;
+    font-size: 20px;
+}#color:hover{
+    color: black;
+}@media screen and (max-width: 350px) {
+    .main-margin{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+  #button{display: none;
+  
+    }
+    .para{
+        display: none;
+    }#para{
+        display: none;
+    }
+    #line-img{
+        display: block;
+    margin-top: 3px;
+        
+    }
+    .TROPIKO{
+      font-size: 35px;
+      margin-top: 5px;
+  }.orgpic0{
+      width: 60px;
+      height: 60px;
+  }#search{
+    display: none;
+  }
+  }

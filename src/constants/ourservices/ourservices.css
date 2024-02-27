@@ -1,0 +1,116 @@
+.card{
+    border: solid gainsboro 1px;
+    width: 370px;
+    height: 520px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#card{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    padding-top: 20px;
+}
+#orange{
+    color: rgb(226, 137, 19);
+    padding-top: 6px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+#orp{
+    
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.card-section{
+    display: flex;
+    justify-content: space-around;
+}.display-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+} .para-head{
+    text-align: center;
+    margin-top: 60px;
+}#para-h{
+    font-size: 20px;
+} .b-read{
+
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+       color: white;
+       background-color: black;
+       border: black;
+       justify-content: center;
+       margin-left: 700px;
+       margin-top: 60px;
+       align-items: center;
+       font-size: 18px;
+ }
+ 
+ @media screen and (max-width: 350px) {
+    .card-section{display: block;
+        margin-left:28px;
+        
+      
+    }.b-read{
+        margin-left: 110px;
+    }.para-head{margin-right: 2%;
+    } .card{
+        margin-top: 30px;
+
+    }.display-card{
+        display: block;
+        margin-left: 10px;
+    } .main-margin{
+        margin-left: 0%;
+        margin-right: 0%;
+    }#card{
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    padding-top: 10px;
+}
+#orp{
+    
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}#orange{
+    color: rgb(226, 137, 19);
+    padding-top: 6px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}.card{
+    border: solid gainsboro 1px;
+    width: 270px;
+    height: 370px;
+    text-align: center;
+    padding-top: 20px;
+    
+}#para-h{
+    font-size: 16px;
+}
+.b-read{
+
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+       color: white;
+       background-color: black;
+       border: black;
+       justify-content: center;
+       
+       margin-top: 60px;
+       align-items: center;
+       font-size: 16px;
+ }
+}
